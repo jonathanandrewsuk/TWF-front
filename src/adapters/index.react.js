@@ -8,7 +8,7 @@ export function fetchGifs(term, number, term_number){
 }
 
 export function postPhrase(word_1, word_2, word_3){
-
+// axios
   return fetch(`http://localhost:3000/api/v1/phrases`, {
       method: 'POST',
       headers: headers(),
