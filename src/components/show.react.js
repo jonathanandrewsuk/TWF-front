@@ -39,7 +39,7 @@ export default class ShowPage extends React.Component {
 
   <container id="container">
     <div id="content">
-
+// can make representational components
       <div className="horizontal div3">
         <h1 id="term1"> {this.state.term_1} </h1>
         <img className="background-image" src={"https://media.giphy.com/media/" + this.state.images.images_1[`${this.state.shuffle_1}`] + "/giphy.gif"} alt="Image 1"/>
